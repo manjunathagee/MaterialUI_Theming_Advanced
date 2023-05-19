@@ -1,7 +1,9 @@
+import { Button } from "@mui/material";
 import "./App.css";
+import NavDrawer from "./components/scaffold/NavDrawer";
 
 function App() {
-  return <div>Hello world</div>;
+  return <NavDrawer />;
 }
 
 export default App;
