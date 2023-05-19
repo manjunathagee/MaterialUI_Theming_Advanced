@@ -1,8 +1,9 @@
+import { Button } from "@mui/material";
 import "./App.css";
-import { Button } from "./components/Button/Button";
+import NavDrawer from "./components/scaffold/NavDrawer";
 
 function App() {
-  return <Button name={"Click me"} />;
+  return <NavDrawer />;
 }
 
 export default App;
